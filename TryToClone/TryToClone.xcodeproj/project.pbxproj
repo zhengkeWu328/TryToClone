@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		933145041C06E1A600274614 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 933145031C06E1A600274614 /* main.m */; };
+		933145071C06E1A600274614 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 933145061C06E1A600274614 /* AppDelegate.m */; };
+		9331450A1C06E1A600274614 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 933145091C06E1A600274614 /* ViewController.m */; };
+		9331450D1C06E1A600274614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9331450B1C06E1A600274614 /* Main.storyboard */; };
+		9331450F1C06E1A600274614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9331450E1C06E1A600274614 /* Assets.xcassets */; };
+		933145121C06E1A600274614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933145101C06E1A600274614 /* LaunchScreen.storyboard */; };
+		9331451D1C06E1A600274614 /* TryToCloneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9331451C1C06E1A600274614 /* TryToCloneTests.m */; };
+		933145281C06E1A600274614 /* TryToCloneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 933145271C06E1A600274614 /* TryToCloneUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		933145191C06E1A600274614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 933144F71C06E1A600274614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 933144FE1C06E1A600274614;
+			remoteInfo = TryToClone;
+		};
+		933145241C06E1A600274614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 933144F71C06E1A600274614 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 933144FE1C06E1A600274614;
+			remoteInfo = TryToClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		933144FF1C06E1A600274614 /* TryToClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryToClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		933145031C06E1A600274614 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		933145051C06E1A600274614 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		933145061C06E1A600274614 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		933145081C06E1A600274614 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		933145091C06E1A600274614 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9331450C1C06E1A600274614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9331450E1C06E1A600274614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		933145111C06E1A600274614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		933145131C06E1A600274614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933145181C06E1A600274614 /* TryToCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryToCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9331451C1C06E1A600274614 /* TryToCloneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryToCloneTests.m; sourceTree = "<group>"; };
+		9331451E1C06E1A600274614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933145231C06E1A600274614 /* TryToCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryToCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		933145271C06E1A600274614 /* TryToCloneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TryToCloneUITests.m; sourceTree = "<group>"; };
+		933145291C06E1A600274614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		933144FC1C06E1A600274614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933145151C06E1A600274614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933145201C06E1A600274614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		933144F61C06E1A600274614 = {
+			isa = PBXGroup;
+			children = (
+				933145011C06E1A600274614 /* TryToClone */,
+				9331451B1C06E1A600274614 /* TryToCloneTests */,
+				933145261C06E1A600274614 /* TryToCloneUITests */,
+				933145001C06E1A600274614 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		933145001C06E1A600274614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				933144FF1C06E1A600274614 /* TryToClone.app */,
+				933145181C06E1A600274614 /* TryToCloneTests.xctest */,
+				933145231C06E1A600274614 /* TryToCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		933145011C06E1A600274614 /* TryToClone */ = {
+			isa = PBXGroup;
+			children = (
+				933145051C06E1A600274614 /* AppDelegate.h */,
+				933145061C06E1A600274614 /* AppDelegate.m */,
+				933145081C06E1A600274614 /* ViewController.h */,
+				933145091C06E1A600274614 /* ViewController.m */,
+				9331450B1C06E1A600274614 /* Main.storyboard */,
+				9331450E1C06E1A600274614 /* Assets.xcassets */,
+				933145101C06E1A600274614 /* LaunchScreen.storyboard */,
+				933145131C06E1A600274614 /* Info.plist */,
+				933145021C06E1A600274614 /* Supporting Files */,
+			);
+			path = TryToClone;
+			sourceTree = "<group>";
+		};
+		933145021C06E1A600274614 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				933145031C06E1A600274614 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9331451B1C06E1A600274614 /* TryToCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				9331451C1C06E1A600274614 /* TryToCloneTests.m */,
+				9331451E1C06E1A600274614 /* Info.plist */,
+			);
+			path = TryToCloneTests;
+			sourceTree = "<group>";
+		};
+		933145261C06E1A600274614 /* TryToCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				933145271C06E1A600274614 /* TryToCloneUITests.m */,
+				933145291C06E1A600274614 /* Info.plist */,
+			);
+			path = TryToCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		933144FE1C06E1A600274614 /* TryToClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9331452C1C06E1A600274614 /* Build configuration list for PBXNativeTarget "TryToClone" */;
+			buildPhases = (
+				933144FB1C06E1A600274614 /* Sources */,
+				933144FC1C06E1A600274614 /* Frameworks */,
+				933144FD1C06E1A600274614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TryToClone;
+			productName = TryToClone;
+			productReference = 933144FF1C06E1A600274614 /* TryToClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		933145171C06E1A600274614 /* TryToCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9331452F1C06E1A600274614 /* Build configuration list for PBXNativeTarget "TryToCloneTests" */;
+			buildPhases = (
+				933145141C06E1A600274614 /* Sources */,
+				933145151C06E1A600274614 /* Frameworks */,
+				933145161C06E1A600274614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9331451A1C06E1A600274614 /* PBXTargetDependency */,
+			);
+			name = TryToCloneTests;
+			productName = TryToCloneTests;
+			productReference = 933145181C06E1A600274614 /* TryToCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		933145221C06E1A600274614 /* TryToCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 933145321C06E1A600274614 /* Build configuration list for PBXNativeTarget "TryToCloneUITests" */;
+			buildPhases = (
+				9331451F1C06E1A600274614 /* Sources */,
+				933145201C06E1A600274614 /* Frameworks */,
+				933145211C06E1A600274614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				933145251C06E1A600274614 /* PBXTargetDependency */,
+			);
+			name = TryToCloneUITests;
+			productName = TryToCloneUITests;
+			productReference = 933145231C06E1A600274614 /* TryToCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		933144F71C06E1A600274614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "吴郑柯";
+				TargetAttributes = {
+					933144FE1C06E1A600274614 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = UJ9PB9M7CR;
+					};
+					933145171C06E1A600274614 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = UJ9PB9M7CR;
+						TestTargetID = 933144FE1C06E1A600274614;
+					};
+					933145221C06E1A600274614 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = UJ9PB9M7CR;
+						TestTargetID = 933144FE1C06E1A600274614;
+					};
+				};
+			};
+			buildConfigurationList = 933144FA1C06E1A600274614 /* Build configuration list for PBXProject "TryToClone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 933144F61C06E1A600274614;
+			productRefGroup = 933145001C06E1A600274614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				933144FE1C06E1A600274614 /* TryToClone */,
+				933145171C06E1A600274614 /* TryToCloneTests */,
+				933145221C06E1A600274614 /* TryToCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		933144FD1C06E1A600274614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933145121C06E1A600274614 /* LaunchScreen.storyboard in Resources */,
+				9331450F1C06E1A600274614 /* Assets.xcassets in Resources */,
+				9331450D1C06E1A600274614 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933145161C06E1A600274614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933145211C06E1A600274614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		933144FB1C06E1A600274614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9331450A1C06E1A600274614 /* ViewController.m in Sources */,
+				933145071C06E1A600274614 /* AppDelegate.m in Sources */,
+				933145041C06E1A600274614 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		933145141C06E1A600274614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9331451D1C06E1A600274614 /* TryToCloneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9331451F1C06E1A600274614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				933145281C06E1A600274614 /* TryToCloneUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9331451A1C06E1A600274614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 933144FE1C06E1A600274614 /* TryToClone */;
+			targetProxy = 933145191C06E1A600274614 /* PBXContainerItemProxy */;
+		};
+		933145251C06E1A600274614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 933144FE1C06E1A600274614 /* TryToClone */;
+			targetProxy = 933145241C06E1A600274614 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9331450B1C06E1A600274614 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9331450C1C06E1A600274614 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		933145101C06E1A600274614 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				933145111C06E1A600274614 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9331452A1C06E1A600274614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9331452B1C06E1A600274614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9331452D1C06E1A600274614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TryToClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.TryToClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9331452E1C06E1A600274614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TryToClone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.TryToClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		933145301C06E1A600274614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TryToCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.TryToCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryToClone.app/TryToClone";
+			};
+			name = Debug;
+		};
+		933145311C06E1A600274614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TryToCloneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.TryToCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryToClone.app/TryToClone";
+			};
+			name = Release;
+		};
+		933145331C06E1A600274614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TryToCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.TryToCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TryToClone;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		933145341C06E1A600274614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TryToCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.TryToCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TryToClone;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		933144FA1C06E1A600274614 /* Build configuration list for PBXProject "TryToClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9331452A1C06E1A600274614 /* Debug */,
+				9331452B1C06E1A600274614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9331452C1C06E1A600274614 /* Build configuration list for PBXNativeTarget "TryToClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9331452D1C06E1A600274614 /* Debug */,
+				9331452E1C06E1A600274614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9331452F1C06E1A600274614 /* Build configuration list for PBXNativeTarget "TryToCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933145301C06E1A600274614 /* Debug */,
+				933145311C06E1A600274614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		933145321C06E1A600274614 /* Build configuration list for PBXNativeTarget "TryToCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933145331C06E1A600274614 /* Debug */,
+				933145341C06E1A600274614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 933144F71C06E1A600274614 /* Project object */;
+}
